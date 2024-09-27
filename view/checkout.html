@@ -1,0 +1,110 @@
+<div class="row checkout">
+    <div class="col-sm-7" style="margin: 10px;">
+        <form class="needs-validation" novalidate>
+        <h1>Musical Land</h1>
+        <a href="#!checkout">Giỏ hàng/Cart</a> > <b>Thông tin vận chuyển/Shipping Information</b> >
+        <p style="color: lightgrey">Phương thức thanh toán/Payment Method</p>
+        <h6>Thông tin vận chuyển/Shipping Information</h6>
+        <span style="color: lightgrey">Already have an acount with us? </span><a href="#!checkout">Sign in</a>
+        <div class="row">
+            <div class="col-sm-10 input-group"  style="margin-top: 10px; width: 545px;">
+                <input type="text" class="form-control" placeholder="Full name" id="name" required>
+                <div class="input-group-text" id="btnGroupAddon"><i class="fa-solid fa-user"></i></div>
+                <div class="invalid-feedback">
+                    Please enter your name.
+                </div>
+            </div>
+        </div>
+        <div style="display: flex;">
+            <div class="input-group" style="width: 300px; margin-top: 10px; margin-bottom: 10px;">
+                <input type="email" class="form-control" placeholder="Email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+                <div class="input-group-text" id="btnGroupAddon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="invalid-feedback">
+                    Please enter a valid email address.
+                </div>
+            </div>
+            <div class="input-group" style="width: 210px; margin-left: 10px; margin-top: 10px; margin-bottom: 10px;">
+                <input type="text" class="form-control" placeholder="Phone number" required>
+                <div class="input-group-text" id="btnGroupAddon"><i class="fa-solid fa-phone"></i></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card" style="margin: 10px; width: 520px;">
+                <div class="card-header" witdh="100%">
+                    Delivery
+                </div>
+                <div class="card-body">
+                    <label>Địa chỉ</label>
+                    <input type="text" placeholder="Address" class="form-control" required>
+                    <div style="display: flex; margin-top: 10px;">
+                        <div>
+                          Tỉnh/Thành Phố
+                          <select style="width: 155px;" class="form-select" ng-model="selectedProvince" ng-options="province.Name for province in dsTINH" ng-disabled="!dsTINH.length" ng-attr-placeholder="{{ dsTINH.length ? '' : 'Chọn tỉnh/thành phố'}}"></select>
+                        </div>
+                        <div style="margin-left: 10px;">
+                          Quận/Huyện
+                          <select style="width: 155px;" class="form-select" ng-model="selectedDistrict" ng-options="district.Name for district in selectedProvince.Districts" ng-disabled="!selectedProvince || !selectedProvince.Districts.length" ng-attr-placeholder="{{ selectedProvince && selectedProvince.Districts.length ? '' : 'Chọn quận/huyện'}}"></select>
+                        </div>
+                        <div style="margin-left: 10px;">
+                          Phường/Xã
+                          <select style="width: 155px;" class="form-select" ng-model="selectedWard" ng-options="ward.Name for ward in selectedDistrict.Wards" ng-disabled="!selectedDistrict || !selectedDistrict.Wards.length" ng-attr-placeholder="{{ selectedDistrict && selectedDistrict.Wards.length ? '' : 'Chọn phường/xã'}}"></select>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="form-floating" style="width: 540px; height: 160px;">
+                <textarea class="form-control" placeholder="Leave a comment here" style="height: 150px;" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea" style="margin-left: 10px;">Ghi chú đơn hàng</label>
+              </div>
+        </div>
+        <!-- Button trigger modal -->
+        <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Thanh toán
+        </button>
+        <a href="#!" class="btn btn-outline-secondary">Tiếp tục mua hàng</a>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Giao dịch chuyển khoản</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/qr.jpg" width="480px">
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Hoàn tất đơn hàng</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-5" style="background-color: lightgrey; margin-left: -20px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;">
+        <div class="checkout-item" style="display: flex; justify-content: space-between; align-items: center;" ng-repeat="sp in cart">
+            <div style="display: flex; align-items: center;">
+                <div style="position: relative;">
+                    <img ng-src="{{sp.img}}" class="img-checkout">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" style="left: -10px;">
+                      1
+                      <span class="visually-hidden">unread messages</span>
+                    </span>
+                </div>
+                <b>{{sp.artist}} - {{sp.name}}</b>
+            </div>
+            <b>{{sp.price | number:0}}<u>đ</u></b>
+        </div>
+        <hr>
+        <div style="display: flex;">
+            <div class="form-floating mb-3" >
+                <input type="text" class="form-control" id="floatingInput" placeholder="Coupon" style="width: 330px; height: 50px;">
+                <label for="floatingInput">Coupon</label>
+            </div>
+            <button class="btn btn-dark" style="width: 100px; height: 55px; margin-left: 10px;">Nhập</button>
+        </div>
+        <hr>
+        <h4>Total: {{tongtien() + (tongtien()*0.1) | number:0}}<u>đ</u></h4>
+    </div>
+</div>

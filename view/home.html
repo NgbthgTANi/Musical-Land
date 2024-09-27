@@ -1,0 +1,110 @@
+<header class="col-sm-12 row" ng-include="'view/header.html'">
+</header>
+<!--Header-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" ng-include="'view/menu.html'">
+</nav>
+<!--Menu-->
+<div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/postdhmh.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/postloichoi.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/GieoThumb.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <h1 class="highlight" style="text-align: center; margin-top: 10px;">HIGHLIGHT</h1>
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="img/dhmh1.png" class="imgThumbnail">
+    </div>
+    <div class="col-sm-6">
+      <img src="img/26.png" class="imgThumbnailmini">
+      <img src="img/rungthong.png" class="imgThumbnailmini">
+      <img src="img/postloichoi.jpg" class="loichoi">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="img/Ngot1.jpg" class="imgThumbnailmini1">
+      <img src="img/Ngot2.jpg" class="imgThumbnailmini1">
+      <img src="img/Ngot3.jpg" class="imgThumbnailmini2">
+      <img src="img/Ngot4.jpg" class="imgThumbnailmini2">
+    </div>
+    <div class="col-sm-6">
+      <img src="img/tvtdras.jpg" class="imgThumbnail" width="10%">
+    </div>
+  </div>
+  <h1 class="highlight" style="text-align: center; margin-top: 10px;">NEW ARRIVAL</h1>
+  <div class="row">
+
+  </div>
+
+  <div class="row">
+    <div class="col-sm-7">
+      <h2 class="double-underline" style="color: white; margin-top: 10px;">TÙNG - Rừng Thông</h2>
+      <button type="button" style="border: none; padding: 0px; background-color: transparent;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <img src="img/thumbnailts.jpg" style="width: 100%; margin-top: 15px; height: 448px;">
+      </button>
+    </div>
+    <div class="col-sm-5">
+      <h2 class="double-underline" style="color: white; margin-top: 10px;">COMING SOON</h2>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="slide carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/tvtdras.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/26.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/deftones_atf.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg"> <!-- Sử dụng lớp modal-dialog-centered để căn giữa và lớp modal-lg để có kích thước lớn -->
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="iframe-container">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TRgqgIFcK7A?si=0P8O4xebVddjxe60&amp;start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <a type="button" a href="#!detail/{{sp.id}}" class="btn btn-primary">Đặt mua</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<footer class="footer-section bg-dark" ng-include="'view/footer.html'">
+</footer>
+  <!--Footer-->

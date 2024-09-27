@@ -1,0 +1,67 @@
+<header class="col-sm-12 row" ng-include="'view/header.html'">
+</header>
+<!--Header-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" ng-include="'view/menu.html'">
+</nav>
+<!--Menu-->
+<div class="row">
+    <h3 class="text-bg-dark" style="text-align: center; padding: 10px; margin: 12px; width: 98%;" >Giỏ hàng</h3>
+    <div class="cart">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">STT</th>
+                <th scope="col">Hình sản phẩm</th>
+                <th scope="col">Tên sản phẩm</th>
+                <th scope="col">Giá bán lẻ</th>
+                <th scope="col">Số lẻ</th>
+                <th scope="col">Tạm tính</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="sp in cart">
+                  <td>{{$index+1}}</td>
+                  <td><img class="img-cart" ng-src="{{sp.img}}" alt="{{sp.name}}"></td>
+                  <td>{{sp.name}}</td>
+                  <td>{{sp.price | number:0}} VND</td>
+                  <td>{{sp.quantity}}</td>
+                  <td>{{sp.price * sp.quantity | number:0}} VND</td>
+                  <td><button ng-click="xoa($index)" href="#" id="xmark"><i class="fa-solid fa-xmark"></i></button></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-6">
+              <b>Nhập mã giảm giá</b>
+              <div class="d-flex">
+                <input id="coupon" class="form-control" type="text">
+                <button id="btncoupon" class="btn btn-dark" ng-click="applyCoupon()">Nhập mã</button>
+              </div>
+              </div>
+              <div class="col-sm-5 ms-auto">
+                <b>Tổng đơn hàng</b>
+                <table class="table table-dark table-striped">
+                  <thead>
+                    <tr>
+                      <th>Tổng</th>
+                      <th style="text-align: right;">{{ tongtien() | number:0 }} VND</th>
+                    </tr>
+                    <tr>
+                      <th>Thuế</th>
+                      <th style="text-align: right;">{{tongtien() * 0.1 | number:0}} VND</th>
+                    </tr>
+                    <tr>
+                      <th>Tổng hóa đơn</th>
+                      <th style="text-align: right;">{{tongtien() + (tongtien() * 0.1) | number:0}} VND</th>
+                    </tr>
+                  </thead>
+                </table>
+                <a class="btn btn-dark float-end" href="#!checkout" style="width: 200px;">Thanh toán</a><br><br>
+              </div>
+          </div>
+    </div>
+</div>
+<footer class="footer-section bg-dark" ng-include="'view/footer.html'">
+</footer>

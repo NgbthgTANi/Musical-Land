@@ -1,0 +1,112 @@
+<header class="col-sm-12 row" ng-include="'view/header.html'">
+</header>
+<!--Header-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" ng-include="'view/menu.html'">
+</nav>
+<!--Menu-->
+<div class="row">
+    <div class="ttsp">
+        <div class="row">
+            <div class="col-sm-5">
+                <img src="{{sp.img}}" width="100%" style="margin-top: 10px;">
+                <img src="img/26CD.png" class="img-thumbnail">
+                <img src="img/26_1.jpg" class="img-thumbnail">
+                <img src="img/26_2.jpg" class="img-thumbnail">
+            </div>  
+            <div class="col-sm-6">
+                <h1>{{sp.name}}</h1>
+                <i>{{sp.artist}}</i>
+                <p>{{ sp.price.toLocaleString() }} VND</p>
+                Phiên bản Album vật lý "26: Individualism" ra mắt năm 2022 của Tùng.
+                <p>- 1 CD<br>
+                - 1 Booklet<br>
+                - 2 Sticker</p>
+                <button class="btn btn-outline-dark">-</button>
+                <input class="sl btn btn-outline-dark" value="1">
+                <button class="btn btn-outline-dark">+</button>
+                <button class="add btn btn-warning" ng-click="addCart(sp)"><b>Thêm vào giỏ hàng</b></button>
+            </div>
+        </div>
+        <hr>
+        <h5>Chi tiết sản phẩm</h5>
+        <hr>
+        <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Thông tin</button>
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Nghe thử</button>
+            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Lưu ý</button>
+        </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" style="margin-bottom: 20px;">
+                <h6>{{sp.name}} - {{sp.artist}}</h6>
+                <b>Hãng: </b>Hãng đĩa thời đại<br>
+                <b>Nước: </b>Việt Nam<br>
+                <b>Năm: </b>2023<br>
+                <b>Định dạng: </b>CD, Digipak<br>
+                <b>Thể loại: </b>INDIE VIET, VPOP
+                <h6>Tracklist:</h6>
+                <div ng-repeat="track in sp.tracklist">
+                <div>
+                    <span>{{$index+1}}. {{ track.title }}   </span> 
+                    <span>   {{ track.duration }}</span>
+                </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <div class="video">
+                    <iframe style="border-radius:12px" ng-src="{{sp.spotify}}" width="80%" height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <h6>Khi chọn hình thức chuyển khoản trước, vui lòng làm theo hướng dẫn sau.</h6>
+                Sau khi đặt hàng, vui lòng chuyển khoản theo thông tin:<br><br>
+
+                Chủ tài khoản: <b>Đào Tấn Kiệt</b> - STK: <b>0773699825</b><br>
+                Ngân hàng <b>MB Bank</b><br>
+                Mục nội dung gửi: Tên_Số điện thoại_Mã đơn hàng<br><br>
+
+                Sau khi hoàn tất chuyển khoản, thư xác nhận thanh toán sẽ được gửi vào email đặt hàng.<br>
+                Trong trường hợp quá 6 tiếng chưa nhận được thư xác nhận chuyển khoản, bạn vui lòng kiểm tra thư mục spam hoặc nhắn tin qua Facebook, hoặc gọi số hotline <b>0773699825</b>, để được hỗ trợ.<br><br>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <h3 class="text-bg-dark" style="text-align: center; margin-top: 10px; margin-bottom: 10px; padding: 10px;">CÁC SẢN PHẨM LIÊN QUAN</h3>
+    <div class="dmsplq row">
+        <div class="splq col-sm-2">
+            <img src="img/dhmh1.png" class="img-fluid">
+            <b>Diễu Hành Mùa Hè</b>
+            <p>390.000 VNĐ</p>
+        </div>
+        <div class="splq col-sm-2">
+            <img src="img/rungthong.png" class="img-fluid">
+            <b>Rừng Thông</b>
+            <p>300.000 VNĐ</p>
+        </div>
+        <div class="splq col-sm-2">
+            <img src="img/gensoCD.jpg" class="img-fluid">
+            <b>ランプ幻想</b>
+            <p>560.000 VNĐ</p>
+        </div>
+        <div class="splq col-sm-2">
+            <img src="img/thinhsuynghi.jpg" class="img-fluid">
+            <b>thinhsuynghi</b>
+            <p>350.000 VNĐ</p>
+        </div>
+        <div class="splq col-sm-2">
+            <img src="img/Ngot4CD.jpg" class="img-fluid">
+            <b>Gieo</b>
+            <p>390.000 VNĐ</p>
+        </div>
+        <div class="splq col-sm-2">
+            <img src="img/dailomattroi.jpg" class="img-fluid">
+            <b>Đại lộ mặt trời</b>
+            <p>195.000 VNĐ</p>
+        </div>
+    </div>
+</div>
+</div>
+<footer class="footer-section bg-dark" ng-include="'view/footer.html'">
+</footer>

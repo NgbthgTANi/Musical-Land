@@ -1,0 +1,141 @@
+<div class="row align-items-center justify-content-start">
+    <div class="col-2">
+      <img src="img/logo.png" alt="Logo" style="width: 150px;">
+    </div>
+    <div class="col-7">
+      <form class="d-flex" role="search">
+        <input type="text" class="form-control" placeholder="Search" ng-model="keyword" ng-model-options="{debounce: 1000}">
+        <button class="btn btn-dark" type="submit" style="margin-left: 10px;">Search</button>
+      </form>
+    </div>
+    <div class="col-sm-2" style="color: lightgrey;">
+        <i class="fa-solid fa-phone"></i> <b> Hotline</b>
+        <p>0773699825</p>
+    </div>
+    <div class="col-1 d-flex justify-content-end">
+      <a href="login.html" class="btn btn-light rounded-circle" style="width: 40px; height: 40px;">
+        <i class="fa-solid fa-user"></i>
+      </a>
+      <a href="#!cart" class="btn btn-light position-relative ms-3">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+          99+
+          <span class="visually-hidden">unread messages</span>
+        </span>
+      </a>
+    </div>
+  </div>
+  <!--Header-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" ng-include="'view/menu.html'">
+  </nav>
+  <!--Menu-->
+  <div class="row" style="margin-top: 10px;">
+      <div class="danhmucsp col-sm-9" style="margin-left: 20px;">
+          <div class="row">
+            <div class="sp card col-sm-3" ng-repeat="sp in dsSP | searchProduct:keyword:['price','name'] | orderBy:order | limitTo:limit:start">
+                  <a href="#!detail/{{sp.id}}">
+                    <div class="card-body">
+                        <img class="img-sp" ng-src="{{sp.img}}" alt="{{sp.name}}">
+                        <p class="titleSP">{{sp.name}}</p class="titleSP">
+                        <b>{{ sp.price.toLocaleString() }} VND</b>
+                        <button class="btn btn-outline-success">Thêm vào giỏ hàng</button>
+                    </div>
+                  </a>
+              </div>
+          </div>
+        </div>
+          <div class="locsp col-sm-3">
+              <div class="accordion" id="accordionMenu">
+                  <div class="card" style="margin-top: 10px;">
+                    <div class="card-header" id="headingOne">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true">
+                          <i class="fa-solid fa-bars"></i>Genres
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne">
+                      <div class="card-body">
+                        <ul class="list-group">
+                          <li><a href="#">VPOP <span class="badge rounded-pill bg-secondary float-end">20</span></a></li>
+                          <li><a href="#">INDIE <span class="badge rounded-pill bg-secondary float-end">5</span></a></li>
+                          <li><a href="#">ROCK <span class="badge rounded-pill bg-secondary float-end">12</span></a></li>
+                          <li><a href="#">BALLAD <span class="badge rounded-pill bg-secondary float-end">10</span></a></li>
+                          <li><a href="#">BOSA NOVA <span class="badge rounded-pill bg-secondary float-end">6</span></a></li>
+                          <li><a href="#">PUNK <span class="badge rounded-pill bg-secondary float-end">4</span></a></li>
+                          <li><a href="#">SYMPHONY <span class="badge rounded-pill bg-secondary float-end">4</span></a></li>
+                          <li><a href="#">Khác <span class="badge rounded-pill bg-secondary float-end">4</span></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card" style="margin-top: 10px;">
+                    <div class="card-header" id="headingTwo">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                          <i class="fa-solid fa-synagogue"></i>ARTIST
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
+                      <div class="card-body">
+                        <ul class="list-group">
+                          <li><a href="#">NGỌT <span class="badge rounded-pill bg-secondary float-end">10</span></a></li>
+                          <li><a href="#">CHILLIES <span class="badge rounded-pill bg-secondary float-end">10</span></a></li>
+                          <li><a href="#">THE CASSETTE <span class="badge rounded-pill bg-secondary float-end">10</span></a></li>
+                          <li><a href="#">TÙNG <span class="badge rounded-pill bg-secondary float-end">10</span></a></li>
+                          <li><a href="#">WREN EVANS <span class="badge rounded-pill bg-secondary float-end">10</span></a></li>
+                          <li><a href="#">Khác</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card" style="margin-top: 10px;">
+                    <div class="card-header" id="headingFour">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                          <i class="fa-solid fa-star"></i>Sắp xếp
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour">
+                      <div class="card-body">
+                        <ul class="list-group" ng-model="order">
+                          <li>
+                            <a style="cursor: pointer;" ng-click="order='price'">Sắp xếp theo giá tăng dần</a>
+                          </li>
+                          <li>
+                            <a style="cursor: pointer;" ng-click="order='-price'">Sắp xếp theo giá giảm dần</a>
+                          </li>
+                          <li>
+                            <a style="cursor: pointer;" ng-click="order='name'">Sắp xếp theo tên từ A-Z</a>
+                          </li>
+                          <li>
+                            <a style="cursor: pointer;" ng-click="order='-name'">Sắp xếp theo tên từ Z-A</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+      </div>
+  <nav aria-label="Page navigation example" style="margin-top: 25px; margin-bottom: 25px;">
+    <ul class="pagination justify-content-center">
+      <li class="page-item {{(page==1)?'disabled':''}}">
+        <button class="page-link"  ng-click="changePage(page-1)" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </button>
+      </li>
+      <li class="page-item" ng-repeat="pageNum in pageList">
+        <button class="page-link {{(page==pageNum)?'active':''}}" ng-click="goToPage(pageNum)">{{ pageNum }}</a>
+      </li>
+      <li class="page-item {{(page == totalPage)?'disabled':''}}">
+        <button class="page-link" ng-click="changePage(page+1)" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+  <footer class="footer-section bg-dark" ng-include="'view/footer.html'">
+  </footer>

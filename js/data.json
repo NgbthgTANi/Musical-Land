@@ -1,0 +1,1225 @@
+[
+    {
+      "id": "cd1",
+      "img": "img/26.png",
+      "name": "26: Individualism",
+      "price": 390000,
+      "artist": "Tùng",
+      "spotify": "https://open.spotify.com/embed/album/165KZN5NuwUjOzUDdPmv2B?utm_source=generator",
+      "tracklist": [
+      {
+        "title": "A Sad Song",
+        "duration": "03:28"
+      },
+      {
+        "title": "Ở Đây Lúc Này",
+        "duration": "03:52"
+      },
+      {
+        "title": "Cái Hộc Tủ",
+        "duration": "05:18"
+      },
+      {
+        "title": "Anh Có Bao Nhiêu %",
+        "duration": "02:10"
+      },
+      {
+        "title": "Gummy Bear",
+        "duration": "03:22"
+      },
+      {
+        "title": "Xa (Chờ Đến Mùa Gió)",
+        "duration": "04:43"
+      },
+      {
+        "title": "Luna",
+        "duration": "05:48"
+      },
+      {
+        "title": "Con Dế Mèn Hát Vào Mùa Hè",
+        "duration": "04:31"
+      },
+      {
+        "title": "Con Chim Trên Cành Hát Về Tình Yêu",
+        "duration": "07:09"
+      },
+      {
+        "title": "Gam Màu Tím Ở Rìa Thế Giới",
+        "duration": "06:55"
+      }
+    ]
+    },
+    {
+      "id": "cd2",
+      "img": "img/dhmh1.png",
+      "name": "Diễu Hành Mùa Hè",
+      "price": 390000,
+      "artist": "Tùng",
+      "spotify": "https://open.spotify.com/embed/album/3tni8ZfoaiyNg3oHr9gZQW?utm_source=generator",
+      "tracklist": [
+      {
+        "title": "cuộc diễu hành",
+        "duration": "01:00"
+      },
+      {
+        "title": "đêm hôm",
+        "duration": "02:56"
+      },
+      {
+        "title": "chuồn chuồn",
+        "duration": "05:00"
+      },
+      {
+        "title": "một ngày mùa hè",
+        "duration": "04:04"
+      },
+      {
+        "title": "dưới tán cây",
+        "duration": "01:25"
+      },
+      {
+        "title": "á đông blues",
+        "duration": "03:50"
+      },
+      {
+        "title": "hihihoho",
+        "duration": "03:25"
+      },
+      {
+        "title": "khoảng trời phía chúng mình",
+        "duration": "03:19"
+      },
+      {
+        "title": "thầy u",
+        "duration": "02:31"
+      },
+      {
+        "title": "tự do",
+        "duration": "04:48"
+      },
+      {
+        "title": "ăn mừng",
+        "duration": "03:14"
+      }
+    ]
+    },
+    {
+      "id": "cd3",
+      "img": "img/lamp.jpg",
+      "name": "Genso",
+      "price": 390000,
+      "artist": "Lamp",
+      "spotify": "https://open.spotify.com/embed/album/7b55VfUk2Vpuqnac9NDREc?utm_source=generator&theme=0",
+      "tracklist": [
+        {
+        "title": "儚き春の一幕",
+        "duration": "05:26"
+        },
+        {
+        "title": "密やかに",
+        "duration": "02:53"
+        },
+        {
+        "title": "夕暮れ",
+        "duration": "05:31"
+        },
+        {
+        "title": "雨降る夜の向こう",
+        "duration": "05:11"
+        },
+        {
+        "title": "ゆめうつつ",
+        "duration": "05:15"
+        },
+        {
+        "title": "白昼夢",
+        "duration": "04:02"
+        },
+        {
+        "title": "日本少年の夏",
+        "duration": "05:56"
+        },
+        {
+        "title": "二十歳の恋",
+        "duration": "03:13"
+        },
+        {
+        "title": "冬の影は哀しみ",
+        "duration": "03:12"
+        },
+        {
+        "title": "ヱンド・オブ・ア・ホリデヰ",
+        "duration": "04:52"
+        },
+        {
+        "title": "ア・サマア・バケイション",
+        "duration": "04:23"
+        }]
+    },
+    {
+      "id": "cd4",
+      "img": "img/Ngot1CD.jpg",
+      "name": "Ngọt",
+      "price": 300000,
+      "artist": "Ngọt",
+      "spotify": "https://open.spotify.com/embed/album/5qU9qBfpxwFChYJb5lBivL?utm_source=generator",
+      "tracklist": [
+      {
+      "title": "Vì Ai",
+      "duration": "03:37"
+      },
+      {
+      "title": "Cho Tôi Đi Theo",
+      "duration": "02:58"
+      },
+      {
+      "title": "Cá Hồi",
+      "duration": "04:24"
+      },
+      {
+      "title": "Be Cool",
+      "duration": "03:25"
+      },
+      {
+      "title": "Xanh",
+      "duration": "04:54"
+      },
+      {
+      "title": "À Ơi",
+      "duration": "03:24"
+      },
+      {
+      "title": "Những Chuyến Phiêu Lưu",
+      "duration": "03:08"
+      },
+      {
+      "title": "Khắp Xung Quanh",
+      "duration": "04:03"
+      },
+      {
+      "title": "Không Làm Gì",
+      "duration": "04:04"
+      },
+      {
+      "title": "Drama Queen",
+      "duration": "05:05"
+      }]
+    },
+    {
+      "id": "cd5",
+      "img": "img/Ngot2CD.jpg",
+      "name": "Ng'bthg",
+      "price": 390000,
+      "artist": "Ngọt",
+      "spotify": "https://open.spotify.com/embed/album/4BwnV3YdCtxn8ydFVrstbI?utm_source=generator",
+      "tracklist": [
+        {
+        "title": "Xin Cho Tôi",
+        "duration": "02:23"
+        },
+        {
+        "title": "Cho",
+        "duration": "03:10"
+        },
+        {
+        "title": "Kho Báu",
+        "duration": "03:39"
+        },
+        {
+        "title": "Kẻ Thù",
+        "duration": "03:54"
+        },
+        {
+        "title": "Bartender",
+        "duration": "05:18"
+        },
+        {
+        "title": "Mèo Hoang",
+        "duration": "05:10"
+        },
+        {
+        "title": "Em Dạo Này",
+        "duration": "03:21"
+        },
+        {
+        "title": "Một Ngày Không Mưa",
+        "duration": "05:15"
+        }]
+    },
+    {
+      "id": "cd6",
+      "img": "img/deftones_atf.jpg",
+      "name": "Around the Fur",
+      "price": 300000,
+      "artist": "Deftones",
+      "spotify": "https://open.spotify.com/embed/album/7o4UsmV37Sg5It2Eb7vHzu?utm_source=generator&theme=0",
+      "tracklist": [
+        {
+        "title": "My Own Summer (Shove It)",
+        "duration": "03:34"
+        },
+        {
+        "title": "Lhabia",
+        "duration": "04:11"
+        },
+        {
+        "title": "Mascara",
+        "duration": "03:45"
+        },
+        {
+        "title": "Around the Fur",
+        "duration": "03:31"
+        },
+        {
+        "title": "Rickets",
+        "duration": "02:42"
+        },
+        {
+        "title": "Be Quiet and Drive (Far Away)",
+        "duration": "04:59"
+        },
+        {
+        "title": "Lotion",
+        "duration": "03:57"
+        },
+        {
+        "title": "Dai the Flu",
+        "duration": "04:36"
+        },
+        {
+        "title": "Headup",
+        "duration": "06:12"
+        },
+        {
+        "title": "MX",
+        "duration": "37:18"
+        }]
+    },
+    {
+      "id": "cd7",
+      "img": "img/loichoiCD.jpg",
+      "name": "Loi Choi",
+      "price": 350000,
+      "artist": "Wren Evans",
+      "spotify": "https://open.spotify.com/embed/album/1c4nTHI2hreFeF5P37wf4f?utm_source=generator",
+      "tracklist": [
+      {
+      "title": "Phóng Đổ Tim Em",
+      "duration": "02:14"
+      },
+      {
+      "title": "Call Me",
+      "duration": "03:34"
+      },
+      {
+      "title": "Cầu Vĩnh Tuy",
+      "duration": "02:31"
+      },
+      {
+      "title": "Từng Quen",
+      "duration": "02:54"
+      },
+      {
+      "title": "bé ơi từ từ",
+      "duration": "03:20"
+      },
+      {
+      "title": "Lối Chơi (Interlude)",
+      "duration": "02:22"
+      },
+      {
+      "title": "Tình Yêu Vĩ Mô",
+      "duration": "03:03"
+      },
+      {
+      "title": "Việt Kiều",
+      "duration": "02:50"
+      },
+      {
+      "title": "ĐĐĐ",
+      "duration": "03:37"
+      },
+      {
+      "title": "Quyền Anh",
+      "duration": "02:59"
+      },
+      {
+      "title": "Tò Te Tí",
+      "duration": "03:15"
+      }]
+    },
+    {
+      "id": "cd8",
+      "img": "img/Ngot3CD.jpg",
+      "name": "Ngọt 3",
+      "price": 390000,
+      "artist": "Ngọt",
+      "spotify": "https://open.spotify.com/embed/album/2dZsaSnVn5i5uBg6FnhUVV?utm_source=generator",
+      "tracklist": [
+        {
+        "title": "MÀU (đen trắng)",
+        "duration": "03:36"
+        },
+        {
+        "title": "MẾU MÁO (T.T)",
+        "duration": "03:37"
+        },
+        {
+        "title": "EM CÓ CHẮC KHÔNG (?) (bài ca rebound)",
+        "duration": "04:35"
+        },
+        {
+        "title": "GIẢ VỜ",
+        "duration": "02:58"
+        },
+        {
+        "title": "CHUÔNG BÁO THỨC (sáng rồi)",
+        "duration": "04:07"
+        },
+        {
+        "title": "(sau đây là) DỰ BÁO THỜI TIẾT (cho các vùng vào ngày mai)",
+        "duration": "03:18"
+        },
+        {
+        "title": "CHUYỂN KÊNH (sản phẩm này không phải là thuốc)",
+        "duration": "04:33"
+        },
+        {
+        "title": "HẾT THỜI",
+        "duration": "04:38"
+        },
+        {
+        "title": "VÉ ĐI THIÊN ĐƯỜNG (một chiều)",
+        "duration": "02:45"
+        },
+        {
+        "title": "(tôi) ĐI TRÚ ĐÔNG",
+        "duration": "04:05"
+        },
+        {
+        "title": "(bé)",
+        "duration": "04:36"
+        },
+        {
+        "title": "LẦN CUỐI (đi bên em xót xa người ơi)",
+        "duration": "03:42"
+        },
+        {
+        "title": "NỨT (đôi chân đôi tay đôi mắt trái tim)",
+        "duration": "06:32"
+        },
+        {
+        "title": "RU MÌNH",
+        "duration": "02:06"
+        }]
+    },
+    {
+      "id": "cd9",
+      "img": "img/Ngot4CD.jpg",
+      "name": "Gieo",
+      "price": 390000,
+      "artist": "Ngọt",
+      "spotify": "https://open.spotify.com/embed/album/1ZnJrvDY8ih3ppPWR2Tc2a?utm_source=generator&theme=0",
+      "tracklist": [
+        {
+        "title": "Bạn thỏ tivi nhỏ",
+        "duration": "04:28"
+        },
+        {
+        "title": "Mấy Khi",
+        "duration": "02:57"
+        },
+        {
+        "title": "Em Trang Trí",
+        "duration": "02:45"
+        },
+        {
+        "title": "Điểm Đến Cuối Cùng",
+        "duration": "03:33"
+        },
+        {
+        "title": "Em Trong Đầu",
+        "duration": "03:18"
+        },
+        {
+        "title": "Chào Buổi Sáng",
+        "duration": "01:40"
+        },
+        {
+        "title": "Thấy Chưa",
+        "duration": "03:52"
+        },
+        {
+        "title": "Đá tan",
+        "duration": "03:22"
+        },
+        {
+        "title": "Đêm Hôm Qua",
+        "duration": "03:48"
+        },
+        {
+        "title": "Gieo",
+        "duration": "03:27"
+        },
+        {
+        "title": "Mất Tích",
+        "duration": "04:31"
+        }]
+    },
+    {
+      "id": "cd10",
+      "img": "img/citopiaCD.jpg",
+      "name": "Citopia",
+      "price": 250000,
+      "artist": "Phùng Khánh Linh",
+      "spotify": "https://open.spotify.com/embed/album/4h8yUXtgFWfqMY7WdK1eIg?utm_source=generator",
+      "tracklist": [
+        {
+        "title": "căn gác mùa hè (sweet summer)",
+        "duration": "03:11"
+        },
+        {
+        "title": "quý cô say xỉn (secret sunday)",
+        "duration": "03:22"
+        },
+        {
+        "title": "nói lời có giữ lời (words of wind)",
+        "duration": "03:29"
+        },
+        {
+        "title": "ngưu tầm ngưu mã tầm mã (bye bye)",
+        "duration": "03:23"
+        },
+        {
+        "title": "1 2 3 4 tí tách (cry cry)",
+        "duration": "03:23"
+        },
+        {
+        "title": "năm ngoái giờ này (after all)",
+        "duration": "03:26"
+        },
+        {
+        "title": "mùa hè 1994 (summer 1994)",
+        "duration": "03:26"
+        },
+        {
+        "title": "đằng sau sân khấu (mystic moonlight)",
+        "duration": "03:15"
+        },
+        {
+        "title": "sài gòn ôm lấy em (sentimental saigon)",
+        "duration": "03:39"
+        },
+        {
+        "title": "em tạm đi vắng khi anh thức giấc (day dreamer)",
+        "duration": "04:33"
+        }]
+    },
+    {
+      "id": "cd11",
+      "img": "img/rungthong.png",
+      "name": "Rừng thông",
+      "price": 350000,
+      "artist": "Tùng",
+      "spotify": "https://open.spotify.com/embed/track/4YESIJrMt6iMstJjNvJUQ7?utm_source=generator"
+    },
+    {
+      "id": "cd12",
+      "img": "img/tvtdras.jpg",
+      "name": "Darkness to light",
+      "price": 300000,
+      "artist": "The Cassette",
+      "spotify": "https://open.spotify.com/embed/album/3Q4TNeqYmFXNPItKvzYi8Z?utm_source=generator",
+      "tracklist": [
+        {
+        "title": "Từ Vực Thẳm...",
+        "duration": "02:11"
+        },
+        {
+        "title": "Treo (2:00 AM)",
+        "duration": "05:26"
+        },
+        {
+        "title": "Soạn",
+        "duration": "04:38"
+        },
+        {
+        "title": "Chuyến Xe Trung Chuyển",
+        "duration": "04:57"
+        },
+        {
+        "title": "Intermission: Rượu Vang",
+        "duration": "04:26"
+        },
+        {
+        "title": "November",
+        "duration": "04:17"
+        },
+        {
+        "title": "Playlist",
+        "duration": "03:47"
+        },
+        {
+        "title": "Đừng Đi",
+        "duration": "05:35"
+        },
+        {
+        "title": "Cơn Mưa Rào Năm Ấy",
+        "duration": "05:04"
+        },
+        {
+        "title": "...Đến Rìa Ánh Sáng",
+        "duration": "03:22"
+        }]
+    },
+    {
+      "id": "cd13",
+      "img": "img/thinhsuynghi.jpg",
+      "name": "thinhsuynghi",
+      "price": 350000,
+      "artist": "Thịnh suy",
+      "spotify": "https://open.spotify.com/embed/album/3gmG6YgbAm7vsaF3PjmQm1?utm_source=generator",
+      "tracklist": [
+        {
+        "title": "Cứ Trôi",
+        "duration": "04:07"
+        },
+        {
+        "title": "Cậu Bé",
+        "duration": "03:24"
+        },
+        {
+        "title": "Trống",
+        "duration": "03:20"
+        },
+        {
+        "title": "Có Nhau",
+        "duration": "02:47"
+        },
+        {
+        "title": "Lam",
+        "duration": "02:54"
+        },
+        {
+        "title": "Sự Vô Thức",
+        "duration": "01:31"
+        },
+        {
+        "title": "Please Don't Go",
+        "duration": "03:09"
+        },
+        {
+        "title": "Có Khi",
+        "duration": "03:12"
+        },
+        {
+        "title": "Đưa Em Vào Trong",
+        "duration": "03:06"
+        },
+        {
+        "title": "Ca Theo Đàn",
+        "duration": "04:48"
+        }]
+    },
+    {
+      "id": "cd14",
+      "img": "img/combodailo.png",
+      "name": "Đại lộ mặt trời",
+      "price": 380000,
+      "artist": "Chillies",
+      "spotify": "https://open.spotify.com/embed/track/0RRaMSF6sPNAvMTntUiv8m?utm_source=generator"
+    },
+    {
+      "id": "cd15",
+      "img": "img/dailomattroiverjp.jpg",
+      "name": "Đại lộ mặt trời V2",
+      "price": 195000,
+      "artist": "Chillies",
+      "spotify": "https://open.spotify.com/embed/track/0H0BIBNimztpyK22DS8odp?utm_source=generator"
+    },
+    {
+      "id": "cd16",
+      "img": "img/dailomattroi.jpg",
+      "name": "Đại lộ mặt trời V1",
+      "price": 195000,
+      "artist":"Chillies",
+      "spotify": "https://open.spotify.com/embed/track/0RRaMSF6sPNAvMTntUiv8m?utm_source=generator"
+    },
+    {
+      "id": "tp1",
+      "img": "img/laufey1.png",
+      "name": "BEWITCHED",
+      "price": 450000,
+      "artist": "Laufey",
+      "spotify": "https://open.spotify.com/embed/album/1rpCHilZQkw84A3Y9czvMO?utm_source=generator",
+      "tracklist": [
+        {
+          "title": "Dreamer",
+          "duration": "03:30"
+        },
+        {
+          "title": "Second Best",
+          "duration": "03:24"
+        },
+        {
+          "title": "Haunted",
+          "duration": "03:20"
+        },
+        {
+          "title": "Must Be Love",
+          "duration": "03:04"
+        },
+        {
+          "title": "While You Were Sleeping",
+          "duration": "02:57"
+        },
+        {
+          "title": "Lovesick",
+          "duration": "03:45"
+        },
+        {
+          "title": "California and Me",
+          "duration": "03:36"
+        },
+        {
+          "title": "Nocturne (Interlude)",
+          "duration": "02:24"
+        },
+        {
+          "title": "Promise",
+          "duration": "03:59"
+        },
+        {
+          "title": "From The Start",
+          "duration": "02:49"
+        },
+        {
+          "title": "Misty",
+          "duration": "03:29"
+        },
+        {
+          "title": "Serendipity",
+          "duration": "03:39"
+        },
+        {
+          "title": "Letter To My 13 Year Old Self",
+          "duration": "04:22"
+        },
+        {
+          "title": "Bewitched",
+          "duration": "04:06"
+        }]
+    },
+    {
+      "id": "tp2",
+      "img": "img/hmhas.jpg",
+      "name": "Hit me Hard and Soft",
+      "price": 500000,
+      "artist": "Billie Eilish",
+      "spotify": "https://open.spotify.com/embed/album/7aJuG4TFXa2hmE4z1yxc3n?utm_source=generator",
+      "tracklist": [
+        {
+          "title": "SKINNY",
+          "duration": "03:39"
+        },
+        {
+          "title": "LUNCH",
+          "duration": "02:59"
+        },
+        {
+          "title": "CHIHIRO",
+          "duration": "05:03"
+        },
+        {
+          "title": "BIRDS OF A FEATHER",
+          "duration": "03:30"
+        },
+        {
+          "title": "WILDFLOWER",
+          "duration": "04:21"
+        },
+        {
+          "title": "THE GREATEST",
+          "duration": "04:53"
+        },
+        {
+          "title": "L'AMOUR DE MA VIE",
+          "duration": "05:33"
+        },
+        {
+          "title": "THE DINER",
+          "duration": "03:06"
+        },
+        {
+          "title": "BITTERSWEET",
+          "duration": "04:58"
+        },
+        {
+          "title": "BLUE",
+          "duration": "05:43"
+        }]
+    },
+    {
+      "id": "vi1",
+      "img": "img/bewitchedvin.jpg",
+      "name": "Bewitched",
+      "price": 1200000,
+      "artist": "Laufey",
+      "spotify": "https://open.spotify.com/embed/album/1rpCHilZQkw84A3Y9czvMO?utm_source=generator",
+      "tracklist": [
+        {
+          "title": "Dreamer",
+          "duration": "03:30"
+        },
+        {
+          "title": "Second Best",
+          "duration": "03:24"
+        },
+        {
+          "title": "Haunted",
+          "duration": "03:20"
+        },
+        {
+          "title": "Must Be Love",
+          "duration": "03:04"
+        },
+        {
+          "title": "While You Were Sleeping",
+          "duration": "02:57"
+        },
+        {
+          "title": "Lovesick",
+          "duration": "03:45"
+        },
+        {
+          "title": "California and Me",
+          "duration": "03:36"
+        },
+        {
+          "title": "Nocturne (Interlude)",
+          "duration": "02:24"
+        },
+        {
+          "title": "Promise",
+          "duration": "03:54"
+        },
+        {
+          "title": "From The Start",
+          "duration": "02:49"
+        },
+        {
+          "title": "Misty",
+          "duration": "03:29"
+        },
+        {
+          "title": "Serendipity",
+          "duration": "03:39"
+        },
+        {
+          "title": "Letter To My 13 Year Old Self",
+          "duration": "04:22"
+        },
+        {
+          "title": "Bewitched",
+          "duration": "04:06"
+        }
+      ]
+    },
+    {
+      "id": "vi2",
+      "img": "img/buctuongvin.jpg",
+      "name": "Con duong khong ten",
+      "price": 1090000,
+      "artist": "Bức tường",
+      "spotify": "https://open.spotify.com/embed/album/2cBrhfguzyTEbWCm7kt1Jy?utm_source=generator",
+      "tracklist": []
+    },
+    {
+      "id": "vi3",
+      "img": "img/everythingaboutlovevin.jpg",
+      "name": "Every thing about love",
+      "price": 1290000,
+      "artist": "Laufey",
+      "spotify": "https://open.spotify.com/embed/album/777K2ytcKbDsX0AZ2y8CBS?utm_source=generator",
+      "tracklist": [
+        {
+          "title": "Fragile",
+          "duration": "04:01"
+        },
+        {
+          "title": "Beautiful Stranger",
+          "duration": "03:21"
+        },
+        {
+          "title": "Valentine",
+          "duration": "02:48"
+        },
+        {
+          "title": "Above The Chinese Restaurant",
+          "duration": "03:43"
+        },
+        {
+          "title": "Dear Soulmate",
+          "duration": "04:20"
+        },
+        {
+          "title": "What Love Will Do to You",
+          "duration": "02:51"
+        },
+        {
+          "title": "I've Never Been In Love Before",
+          "duration": "03:42"
+        },
+        {
+          "title": "Just Like Chet",
+          "duration": "03:36"
+        },
+        {
+          "title": "Everything I Know About Love",
+          "duration": "03:29"
+        },
+        {
+          "title": "Falling Behind",
+          "duration": "02:53"
+        },
+        {
+          "title": "Hi",
+          "duration": "03:13"
+        },
+        {
+          "title": "Dance With You Tonight",
+          "duration": "02:38"
+        },
+        {
+          "title": "Night Light",
+          "duration": "04:02"
+        },
+        {
+          "title": "Slow Down",
+          "duration": "02:22"
+        },
+        {
+          "title": "Lucky for Me",
+          "duration": "02:24"
+        },
+        {
+          "title": "Questions For The Universe",
+          "duration": "03:23"
+        }
+      ]
+    },
+    {
+      "id": "vi4",
+      "img": "img/hitmehardandsoftvin.jpg",
+      "name": "Hit me Hard and Soft",
+      "price": 1490000,
+      "artist": "Billie Eilish",
+      "spotify": "https://open.spotify.com/embed/album/7aJuG4TFXa2hmE4z1yxc3n?utm_source=generator",
+      "tracklist": [
+        {
+          "title": "SKINNY",
+          "duration": "03:39"
+        },
+        {
+          "title": "LUNCH",
+          "duration": "02:59"
+        },
+        {
+          "title": "CHIHIRO",
+          "duration": "05:03"
+        },
+        {
+          "title": "BIRDS OF A FEATHER",
+          "duration": "03:30"
+        },
+        {
+          "title": "WILDFLOWER",
+          "duration": "04:21"
+        },
+        {
+          "title": "THE GREATEST",
+          "duration": "04:53"
+        },
+        {
+          "title": "L'AMOUR DE MA VIE",
+          "duration": "05:33"
+        },
+        {
+          "title": "THE DINER",
+          "duration": "03:06"
+        },
+        {
+          "title": "BITTERSUITE",
+          "duration": "04:58"
+        },
+        {
+          "title": "BLUE",
+          "duration": "05:43"
+        }
+      ]
+    },
+    {
+      "id": "vi5",
+      "img": "img/nothingvin.jpg",
+      "name": "Notthing",
+      "price": 990000,
+      "artist": "Bruno Major",
+      "spotify": "https://open.spotify.com/embed/album/4NWvFq8Cst2Y5iHOouXtMz?utm_source=generator",
+      "tracklist": [
+        {
+          "title": "Old Soul",
+          "duration": "03:06"
+        },
+        {
+          "title": "The Most Beautiful Thing",
+          "duration": "03:55"
+        },
+        {
+          "title": "Nothing",
+          "duration": "02:42"
+        },
+        {
+          "title": "Regent's Park",
+          "duration": "02:57"
+        },
+        {
+          "title": "Old Fashioned",
+          "duration": "03:19"
+        },
+        {
+          "title": "She Chose Me",
+          "duration": "02:19"
+        },
+        {
+          "title": "Figment Of My Mind",
+          "duration": "03:35"
+        },
+        {
+          "title": "Tapestry",
+          "duration": "03:15"
+        },
+        {
+          "title": "I'll Sleep When I'm Older",
+          "duration": "03:40"
+        },
+        {
+          "title": "To Let A Good Thing Die",
+          "duration": "02:15"
+        }
+      ]
+    },
+    {
+      "id": "tp3",
+      "img": "img/wtecs.jpg",
+      "name": "summer flows 0.02",
+      "price": 450000,
+      "artist": "Wave to earth",
+      "spotify": "https://open.spotify.com/embed/album/3NRNR4txhuRLhnQUUlqWXH?utm_source=generator",
+      "tracklist": [
+      {
+      "title": "summer flows",
+      "duration": "00:37"
+      },
+      {
+      "title": "ride",
+      "duration": "03:48"
+      },
+      {
+      "title": "seasons",
+      "duration": "04:15"
+      },
+      {
+      "title": "ocean floor",
+      "duration": "04:01"
+      },
+      {
+      "title": "surf.",
+      "duration": "03:49"
+      }
+      ]
+      },
+      {
+      "id": "tp4",
+      "img": "img/wtecs2.jpg",
+      "name": "wave 0.01",
+      "price": 490000,
+      "artist": "Wave to earth",
+      "spotify": "https://open.spotify.com/embed/album/3v2wQt26hJ3ricGPZ1kbld?utm_source=generator",
+      "tracklist": [
+      {
+      "title": "wave to earth",
+      "duration": "04:40"
+      },
+      {
+      "title": "bonfire",
+      "duration": "04:40"
+      },
+      {
+      "title": "wave",
+      "duration": "04:30"
+      },
+      {
+      "title": "light",
+      "duration": "03:45"
+      },
+      {
+      "title": "bird",
+      "duration": "03:36"
+      },
+      {
+      "title": "purple lake",
+      "duration": "04:28"
+      }
+      ]
+      },
+      {
+      "id": "tp5",
+      "img": "img/citopiacs.jpg",
+      "name": "Citopia",
+      "price": 320000,
+      "artist": "Phùng Khánh Linh",
+      "spotify": "https://open.spotify.com/embed/album/4h8yUXtgFWfqMY7WdK1eIg?utm_source=generator",
+      "tracklist": [
+      {
+      "title": "căn gác mùa hè (sweet summer)",
+      "duration": "03:11"
+      },
+      {
+      "title": "quý cô say xỉn (secret sunday)",
+      "duration": "03:22"
+      },
+      {
+      "title": "nói lời có giữ lời (words of wind)",
+      "duration": "03:29"
+      },
+      {
+      "title": "ngưu tầm ngưu mã tầm mã (bye bye)",
+      "duration": "03:25"
+      },
+      {
+      "title": "1 2 3 4 tí tách (cry cry)",
+      "duration": "03:23"
+      },
+      {
+      "title": "năm ngoái giờ này (after all)",
+      "duration": "03:26"
+      },
+      {
+      "title": "mùa hè 1994 (summer 1994)",
+      "duration": "03:26"
+      },
+      {
+      "title": "đằng sau sân khấu (mystic moonlight)",
+      "duration": "03:15"
+      },
+      {
+      "title": "sài gòn ôm lấy em (sentimental saigon)",
+      "duration": "03:39"
+      },
+      {
+      "title": "em tạm đi vắng khi anh thức giấc (day dreamer)",
+      "duration": "04:33"
+      }
+      ]
+      },
+      {
+      "id": "tp6",
+      "img": "img/citopiacsv2.jpg",
+      "name": "Citopia valentine ver",
+      "price": 320000,
+      "artist": "Phùng Khánh Linh",
+      "spotify": "https://open.spotify.com/embed/album/4h8yUXtgFWfqMY7WdK1eIg?utm_source=generator",
+      "tracklist": [
+      {
+      "title": "căn gác mùa hè (sweet summer)",
+      "duration": "03:11"
+      },
+      {
+      "title": "quý cô say xỉn (secret sunday)",
+      "duration": "03:22"
+      },
+      {
+      "title": "nói lời có giữ lời (words of wind)",
+      "duration": "03:29"
+      },
+      {
+      "title": "ngưu tầm ngưu mã tầm mã (bye bye)",
+      "duration": "03:25"
+      },
+      {
+      "title": "1 2 3 4 tí tách (cry cry)",
+      "duration": "03:23"
+      },
+      {
+      "title": "năm ngoái giờ này (after all)",
+      "duration": "03:26"
+      },
+      {
+      "title": "mùa hè 1994 (summer 1994)",
+      "duration": "03:26"
+      },
+      {
+      "title": "đằng sau sân khấu (mystic moonlight)",
+      "duration": "03:15"
+      },
+      {
+      "title": "sài gòn ôm lấy em (sentimental saigon)",
+      "duration": "03:39"
+      },
+      {
+      "title": "em tạm đi vắng khi anh thức giấc (day dreamer)",
+      "duration": "04:33"
+      }
+      ]
+      },
+      {
+      "id": "tp7",
+      "img": "img/rungdomdomcs.jpg",
+      "name": "Rừng đom đóm",
+      "price": 490000,
+      "artist": "The Cassette",
+      "spotify": "https://open.spotify.com/embed/album/68bMwerbq9axDV5m1wZYAn?utm_source=generator",
+      "tracklist": [
+      {
+      "title": "Cá Rô",
+      "duration": "02:58"
+      },
+      {
+      "title": "Vùng Đất Linh Hồn",
+      "duration": "05:51"
+      },
+      {
+      "title": "Nắng",
+      "duration": "04:29"
+      },
+      {
+      "title": "Espresso",
+      "duration": "03:55"
+      },
+      {
+      "title": "Ánh Đèn Phố",
+      "duration": "04:42"
+      },
+      {
+      "title": "Khoảng Cách",
+      "duration": "05:08"
+      },
+      {
+      "title": "Nếu Ngày Mai Tôi Không Trở Về",
+      "duration": "03:53"
+      },
+      {
+      "title": "Tựa Đêm Nay",
+      "duration": "04:58"
+      },
+      {
+      "title": "Interlude: 9:00 PM",
+      "duration": "02:11"
+      },
+      {
+      "title": "Rừng Đom Đóm",
+      "duration": "04:41"
+      }
+      ]
+    }
+  ]
